@@ -224,15 +224,16 @@ a, button, label { touch-action: manipulation; }
 .strike::after {
   content: "";
   position: absolute;
-  left: -0.1em;
-  right: -0.1em;
-  top: 56%;
-  height: 0.1em;
-  min-height: 3px;
+  left: -0.15em;
+  right: -0.15em;
+  top: 50%;
+  height: 3px;
+  margin-top: -1.5px;
   background: var(--ink);
+  transform: rotate(-4deg);
   transform-origin: 0 50%;
 }
-.js .cut:not(.is-in) .strike::after { transform: scaleX(0); }
+.js .cut:not(.is-in) .strike::after { transform: rotate(-4deg) scaleX(0); }
 
 /* stampa */
 .press { padding-block: 2.25rem; border-bottom: 1px solid var(--rule); }
