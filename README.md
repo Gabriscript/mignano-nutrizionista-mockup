@@ -31,7 +31,7 @@ La v1 (Bodoni + pervinca e carbone) è in `docs/v1-bodoni-pervinca/`.
 - Ok a pubblicare le 3 recensioni (nome e iniziale del cognome).
 - Conferma che le 2 foto dei piatti sono sue.
 - Studi di Milano e Poggio Mirteto: il sito attuale li cita, il brief no. Per ora non ci sono.
-- Al deploy: `og:image` con URL assoluto.
+- `og:image` punta al dominio di anteprima GitHub Pages: va cambiato col dominio definitivo.
 
 ## Scelte della v2 da far approvare
 
